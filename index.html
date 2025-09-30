@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISAK RESOURCES LIMITED</title>
+  <style>
+    /* 🔥 Fade in + slight upward movement */
+    @keyframes fadeInUpPage {
+      from {
+        opacity: 0;
+        transform: translateY(20px); /* starts slightly lower */
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0); /* normal position */
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      animation: fadeInUpPage 1.5s ease-in-out;
+    }
+
+    header {
+      background: #b30000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+
+    nav {
+      background: #222;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .hero {
+      background: url('https://img.freepik.com/free-photo/solar-panels-renewable-energy_23-2148992390.jpg') no-repeat center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px black;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      text-shadow: 2px 2px 5px black;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      background: #fff;
+    }
+    .service-card {
+      background: #f0f0f0;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+   <!-- Company Logo (Circular) -->
+   <img src="sss.jpg" alt="ISAK Resources Logo" 
+        style="width:100px; height:100px; margin-bottom:10px; border-radius:50%; object-fit:cover; border:3px solid brown;">
+
+   <h1>ISAK RESOURCES LIMITED</h1>
+   <p>IN GOD WE STAND...</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Installation Giant</h2>
+    <p>Providing quality solar, power, and security solutions across Nigeria.</p>
+  </section>
+
+  <section class="services">
+    <div class="service-card">
+      <h3>Solar Installation</h3>
+      <p>Expert solar panel installations that guarantee efficient energy solutions.</p>
+    </div>
+    <div class="service-card">
+      <h3>Inverter & Battery Setup</h3>
+      <p>Reliable inverter and battery systems for your home and office needs.</p>
+    </div>
+    <div class="service-card">
+      <h3>Security Surveillance</h3>
+      <p>Modern CCTV and security camera installations to protect your property.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ISAK RESOURCES LIMITED | Powered by Utomi Raymond</p>
+  </footer>
+</body>
+</html>
