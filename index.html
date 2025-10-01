@@ -90,6 +90,13 @@
     .service-card:hover {
       transform: translateY(-5px);
     }
+    .service-card img {
+      width: 100%;
+      max-width: 250px;
+      margin: 15px 0;
+      border-radius: 10px; /* slight curve */
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    }
 
     footer {
       background: #222;
@@ -122,19 +129,23 @@
   </section>
 
   <section class="services">
-    <div class="service-card">
-      <h3>Solar Installation</h3>
-      <p>Expert solar panel installations that guarantee efficient energy solutions.</p>
-    </div>
-    <div class="service-card">
-      <h3>Inverter & Battery Setup</h3>
-      <p>Reliable inverter and battery systems for your home and office needs.</p>
-    </div>
-    <div class="service-card">
-      <h3>Security Surveillance</h3>
-      <p>Modern CCTV and security camera installations to protect your property.</p>
-    </div>
-  </section>
+  <div class="service-card">
+    <h3>Solar Installation</h3>
+    <img src="solar.jpg" alt="Solar Panels" style="width:100%; border-radius:10px; margin:10px 0;">
+    <p>Expert solar panel installations that guarantee efficient energy solutions.</p>
+  </div>
+  <div class="service-card">
+    <h3>Inverter & Battery Setup</h3>
+    <img src="inverter.jpg" alt="Inverter and Battery" style="width:100%; border-radius:10px; margin:10px 0;">
+    <p>Reliable inverter and battery systems for your home and office needs.</p>
+  </div>
+  <div class="service-card">
+    <h3>Security Surveillance</h3>
+    <img src="cctv.jpg" alt="Security Camera" style="width:100%; border-radius:10px; margin:10px 0;">
+    <p>Modern CCTV and security camera installations to protect your property.</p>
+  </div>
+</section>
+
 
   <footer>
     <p>&copy; 2025 ISAK RESOURCES LIMITED | Powered by Utomi Raymond</p>
